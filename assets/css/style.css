@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    color: #777777;
+    background: lightgrey;
+}
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 32px;
+    color: #4aaaa5;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    font-size: 22px;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+    color: #777;
+}
+footer {
+    padding-top: 40px;
+    color: white;
+}
+form {
+    width: 90%;
+}
+/*=======Main Header==========*/
+.mainhead {
+    border-bottom: solid 2px grey;
+    background: #fff;
+    height: 100px;
+    margin-bottom: 30px;
+}
+.innermain {
+    width: 960px;
+    margin: 0 auto;
+}
+.logo {
+    float: left;
+    background: #4aaaa5;
+    color: white;
+    padding: 29px;
+}
+/*========Navigation=========*/
+.nav {
+    float: right;
+    padding-top: 30px;
+}
+/*========Content=========*/
+.focal {
+    background: #fff;
+    width: 960px;
+    height: 650px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.subhead {
+    padding: 25px;
+}
+.container {
+    border-top: solid 2px grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+/*=========Layout========*/
+.main {
+    margin: 0 auto;
+    background: #fff;
+    width: 960px;
+    height: 600px;
+}
+.body {
+    content: "";
+    display: block;
+    clear: both;
+}
+.middle {
+    margin: 0 auto;
+    padding-top: 20px;
+}
+/*=========Footer========*/
+.foot {
+    background: #666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+/*=========Forms========*/
+.fillout,
+.msg {
+    width: 90%;
+}
+.msg {
+    height: 200px;
+}
+/*=========Buttons========*/
+.btn {
+    background: #4aaaa5;
+    color: #fff;
+    border: solid 1px #37948f;
+}
