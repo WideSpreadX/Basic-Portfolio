@@ -33,7 +33,7 @@ body {
     background: lightgrey;
 }
 h1 {
-    font-size: 36px;
+    font-size: 44px;
 }
 h2 {
     font-size: 32px;
@@ -79,8 +79,9 @@ p {
     float: left;
     background: #4aaaa5;
     color: white;
-    padding: 29px;
+    padding: 24.5px;
     cursor: default;
+    margin-left: -10px;
 }
 /*========Navigation=========*/
 .nav {
@@ -133,6 +134,7 @@ p {
     width: 100%;
     height: 100px;
     text-align: center;
+    border-top: solid 5px #4aaaa5;
 }
 .spread {
     color: #fff;
