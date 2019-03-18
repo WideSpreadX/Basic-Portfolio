@@ -51,12 +51,18 @@ a {
     text-decoration: none;
     color: #777;
 }
+a:hover {
+    color: #4aaaa5;
+}
 footer {
     padding-top: 40px;
     color: white;
 }
 form {
     width: 90%;
+}
+p {
+    line-height: 200%;
 }
 /*=======Main Header==========*/
 .mainhead {
@@ -74,6 +80,7 @@ form {
     background: #4aaaa5;
     color: white;
     padding: 29px;
+    cursor: default;
 }
 /*========Navigation=========*/
 .nav {
@@ -90,12 +97,17 @@ form {
 }
 .subhead {
     padding: 25px;
+    cursor: default;
 }
 .container {
     border-top: solid 2px grey;
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
+}
+.pic {
+    float: left;
+    margin-right: 25px;
 }
 /*=========Layout========*/
 .main {
@@ -122,6 +134,9 @@ form {
     height: 100px;
     text-align: center;
 }
+.spread {
+    color: #fff;
+}
 /*=========Forms========*/
 .fillout,
 .msg {
@@ -135,4 +150,18 @@ form {
     background: #4aaaa5;
     color: #fff;
     border: solid 1px #37948f;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+/*==========Portfolio==========*/
+.foliomain {
+    float: left;
+    overflow-y: scroll;
+    height: 500px;
+    margin-top: 15px;
+}
+.foliofolder {
+    margin-left: 60px;
+    margin-bottom: 60px;
 }
