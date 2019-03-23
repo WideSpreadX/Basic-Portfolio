@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    color: #777777;
+    color: #777;
     background: lightgrey;
 }
 h1 {
@@ -63,6 +63,12 @@ form {
 }
 p {
     line-height: 200%;
+}
+input:focus {
+    background: #4aaaa554;    
+}
+textarea:focus {
+    background: #4aaaa554;
 }
 /*=======Main Header==========*/
 .mainhead {
@@ -108,7 +114,7 @@ p {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 30px;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 20px;
     padding-right: 20px;
     height: auto;
@@ -143,6 +149,7 @@ p {
 }
 .spread {
     color: #fff;
+    text-decoration: underline;
 }
 /*=========Forms========*/
 .fillout,
@@ -166,7 +173,7 @@ p {
     float: left;
     height: 500px;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .foliofolder {
     margin-left: 60px;
